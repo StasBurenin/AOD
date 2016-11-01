@@ -122,7 +122,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Band.h" />
+    <ClInclude Include="Dicrector.h" />
     <ClInclude Include="Participant.h" />
+    <ClInclude Include="Producer.h" />
+    <ClInclude Include="Sponsor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

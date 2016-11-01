@@ -26,5 +26,14 @@
     <ClInclude Include="Band.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
+    <ClInclude Include="Sponsor.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Producer.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dicrector.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

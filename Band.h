@@ -17,12 +17,10 @@ public:
 	void setBand() {
 		cout << "Название группы: ";
 		cin >> bandName;
-		cout << "===================" << endl;
 
 		for (int i = 0; i<4; i++) {
-			cout << i+1 << " участник" << endl;
+			cout << "=========== " << i+1 << " участник" << " ===========" << endl;
 			par[i].setParticipant();
-			cout << "===================" << endl;
 		}
 
 		k = 2016 - par[0].year;

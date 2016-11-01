@@ -13,13 +13,13 @@ public:
 	string instrument;
 	int year;
 	int setParticipant() {
-		cout << "¬ведите им€ участника " << endl;
+		cout << "¬ведите им€: ";
 		cin >> name;
-		cout << "¬ведите фамилию участника " << endl;
+		cout << "¬ведите фамилию: ";
 		cin >> surname;
-		cout << "¬ведите инструмент участника " << endl;
+		cout << "¬ведите инструмент: ";
 		cin >> instrument;
-		cout << "¬ведите год рождени€ участника " << endl;
+		cout << "¬ведите год рождени€: ";
 		cin >> year;
 
 		return year;
