@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stack>
 #include "Band.h"
 #include "Participant.h"
 #include "Dicrector.h"
@@ -8,6 +9,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "RUSSIAN");
+
 	int s;
 	Band ba;
 	Director dir;

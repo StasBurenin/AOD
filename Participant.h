@@ -21,6 +21,7 @@ public:
 		cin >> instrument;
 		cout << "¬ведите год рождени€: ";
 		cin >> year;
+		cout << endl;
 
 		return year;
 	}
